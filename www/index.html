@@ -1,29 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>ESSE</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<div class="logo  animated  fadeInDown"></div>
-	<div id="fullpage">
-		<div class="section  section--intro">
-			<div class="section-background">
-				<video id="video" autoplay="autoplay" preload="auto" loop data-autoplay>
-					<source src="files/esse-index.mp4"></source>
-				</video>
-			</div>
-			<div class="section-content">
-				<a href="#" class="btn  btn--bottom  animated  fadeIn"><span class="btn__text">Узнать, что внутри</span> <i class="icon  icon--arrow"></i></a>
-			</div>
+	<main class="page">
+		<header>
+			<h1 class="logo  animated  fadeInDown"></h1>
+			<nav class="menu">
+				<button class="menu__btn  js-show-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="menu__list">
+					<li>
+						<span class="menu__toggle-second  js-show-second-menu">Продуктовые серии <i class="icon icon--arrow-black"></i></span>
+						<ul class="menu__list-inner">
+							<li><a href="#!" class="active">Основная</a></li>
+							<li><a href="#!">Премиальная</a></li>
+							<li><a href="#!">Премиальная</a></li>
+							<li><a href="#!">Café</a></li>
+							<li><a href="#!">Mini</a></li>
+							<li><a href="#!">Blooming</a></li>
+						</ul>
+					</li>
+					<li><a href="#!">Акции / Новости</a></li>
+					<li><a href="#!">Правила пользования</a></li>
+					<li><a href="#!">Вопросы и ответы</a></li>
+					<li><a href="#!">Контакты</a></li>
+					<li><a href="#!">Личный профиль</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="fullpage">
+			<section class="section  section--intro">
+				<div class="section-background">
+					<video id="video" autoplay="autoplay" preload="auto" loop data-autoplay>
+						<source src="files/esse-index.mp4" />
+					</video>
+				</div>
+				<div class="section-content">
+					<a href="#" class="btn  btn--bottom  animated  fadeIn"><span class="btn__text">Узнать, что внутри</span> <i class="icon  icon--arrow"></i></a>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="section-content  section-content--index">
+					<a href="#" class="btn  btn--bottom  animated  fadeIn"><span class="btn__text">Продуктовые линейки</span> <i class="icon  icon--arrow"></i></a>
+				</div>
+			</section>
+
 		</div>
-		<div class="section">
-			<div class="section-content  section-content--index">
-				<a href="#" class="btn  btn--bottom  animated  fadeIn"><span class="btn__text">Продуктовые линейки</span> <i class="icon  icon--arrow"></i></a>
-			</div>
-		</div>
-	</div>
+	</main>
 
 	<script src="js/main.js"></script>
 </body>
