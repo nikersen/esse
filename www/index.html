@@ -18,8 +18,8 @@
 				<span class="nav-panel__back  js-hide-product"><i class="icon  icon--back"></i> Назад</span>
 			</nav>
 			<h1 class="logo">
-				<img class="logo__img-white" src="images/logo.png">
-				<img class="logo__img-dark" src="images/logo-dark.png">
+				<img alt="img" class="logo__img-white" src="images/logo.png">
+				<img alt="img" class="logo__img-dark" src="images/logo-dark.png">
 			</h1>
 			<nav class="menu  menu--overflow">
 				<button class="menu__btn  js-show-menu  fadeInRight  animated">
@@ -28,16 +28,6 @@
 					<span></span>
 				</button>
 				<ul class="menu__list">
-					<!-- <li>
-						<span class="menu__toggle-second  js-show-second-menu">Продуктовые серии <i class="icon icon--svg-arrow"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/><path d="M0-.75h24v24H0z" fill="none"/></svg></i></span>
-						<ul class="menu__list-inner">
-							<li><a href="#!">Основная серия</a></li>
-							<li><a href="#!">Премиальная серия</a></li>
-							<li><a href="#!">Café</a></li>
-							<li><a href="#!">Mini</a></li>
-							<li><a href="#!">Blooming</a></li>
-						</ul>
-					</li> -->
 					<li><a href="#lineOne">Основная серия</a></li>
 					<li><a href="#lineTwo">Премиальная серия</a></li>
 					<li><a href="#!">Café</a></li>
@@ -49,7 +39,7 @@
 					<li><a href="#!">Контакты</a></li>
 					<li><a href="#!">Личный профиль</a></li>
 					<li class="menu__logo">
-						<img class="logo__img-dark" src="images/logo-dark.png">
+						<img alt="img" class="logo__img-dark" src="images/logo-dark.png">
 					</li>
 				</ul>
 				<ul class="menu__lang">
@@ -62,14 +52,15 @@
 		<div id="fullpage">
 			<section class="section  section--intro">
 				<div class="section-background">
-					<video id="video" autoplay="autoplay" preload="auto" loop data-autoplay>
+					<video class="video" autoplay="autoplay" preload="auto" loop data-autoplay>
 						<source src="files/esse-intro.mp4" />
 					</video>
 				</div>
 				<div class="section-overlay"></div>
 				<div class="section-content">
 					<div class="section__logo">
-						<img src="images/logo.png">
+						<h3 class="section__hidden-title">Intro</h3>
+						<img alt="img" src="images/logo.png">
 					</div>
 					<a href="#authorize" class="btn  btn--bottom  animated  fadeIn"><span class="btn__text">Узнать, что внутри</span> <i class="icon  icon--arrow  icon--arrow-animated"></i></a>
 				</div>
@@ -77,10 +68,11 @@
 
 			<section class="section  section--authorize">
 				<div class="section-background">
-					<video id="video" autoplay="autoplay" preload="auto" loop data-autoplay>
+					<video class="video" autoplay="autoplay" preload="auto" loop data-autoplay>
 						<source src="files/esse-authorize.mp4" />
 					</video>
 				</div>
+				<h3 class="section__hidden-title">Авторизация</h3>
 				<div class="section-content  section-content--authorize">
 					<article class="auth  auth--top">
 						<h2 class="auth__title">Добро пожаловать</h2>
@@ -128,7 +120,7 @@
 
 			<section class="section  section--index">
 				<div class="section-background">
-					<video id="video" autoplay="autoplay" preload="auto" loop data-autoplay>
+					<video class="video" autoplay="autoplay" preload="auto" loop data-autoplay>
 						<source src="files/esse-index.mp4" />
 					</video>
 				</div>
@@ -148,7 +140,7 @@
 				</div>
 			</section>
 
-			<section class="section  section--line-1">
+			<div class="section  section--line-1">
 				<div class="section-overlay"></div>
 				<div class="section-content">
 					<article class="line">
@@ -171,10 +163,10 @@
 											<p><b>Никотин:</b> 0.5 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-menthol.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-menthol.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -190,10 +182,10 @@
 											<p><b>Никотин:</b> 0.7 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-classic.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-classic.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -209,10 +201,10 @@
 											<p><b>Никотин:</b> 0.1 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-one.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-one.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -228,10 +220,10 @@
 											<p><b>Никотин:</b> 0.5 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-blue.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-blue.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -247,10 +239,10 @@
 											<p><b>Никотин:</b> 0.3 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-field.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-field.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -271,7 +263,8 @@
 									</div>
 									<div class="line-product__box">
 										<div class="line-product__content">
-											<img src="images/pack-blue.png" class="line-product__pack-img">
+											<h3 class="section__hidden-title">ESSE Blue</h3>
+											<img alt="img" src="images/pack-blue.png" class="line-product__pack-img">
 											<div class="line-product__info  line-product__info--blue">
 												<p><b>Смола:</b> 5 мг</p>
 												<p><b>Никотин:</b> 0.5 мг</p>
@@ -301,9 +294,9 @@
 						</div>
 					</article>
 				</div>
-			</section>
+			</div>
 
-			<section class="section  section--line-2">
+			<div class="section  section--line-2">
 				<div class="section-overlay"></div>
 				<div class="section-content">
 					<article class="line">
@@ -326,10 +319,10 @@
 											<p><b>Никотин:</b> 0.1 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-golden-white.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-golden-white.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -345,10 +338,10 @@
 											<p><b>Никотин:</b> 0.3 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-golden.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-golden.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -364,10 +357,10 @@
 											<p><b>Никотин:</b> 0.1 мг</p>
 										</div>
 
-										<img class="line-card__pack-img" src="images/pack-special.png">
+										<img alt="img" class="line-card__pack-img" src="images/pack-special.png">
 										
 										<button class="line-card__btn">
-											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
+											<i class="icon icon--svg-arrow-right"><svg viewBox="0 0 24 24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></i>
 										</button>
 									</div>
 								</article>
@@ -393,7 +386,8 @@
 									</div>
 									<div class="line-product__box">
 										<div class="line-product__content">
-											<img src="images/pack-special.png" class="line-product__pack-img">
+											<h3 class="section__hidden-title">ESSE Gold</h3>
+											<img alt="img" src="images/pack-special.png" class="line-product__pack-img">
 											<div class="line-product__info  line-product__info--special">
 												<p><b>Смола:</b> 4 мг</p>
 												<p><b>Никотин:</b> 0.4 мг</p>
@@ -418,7 +412,7 @@
 						</div>
 					</article>
 				</div>
-			</section>
+			</div>
 
 		</div>
 	</main>
